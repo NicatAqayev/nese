@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  height: 730px;
+}
+.active {
+  opacity: 1;
+  z-index: 1;
+}
+.slider .items {
+  position: relative;
+  width: 100%;
+}
+.slider .items .item {
+  position: absolute;
+  width: 100%;
+}
+.slider .items .item img {
+  width: 100%;
+}
+.slider .action {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 35%;
+  display: flex;
+}
+.action .action-left i {
+  position: absolute;
+  cursor: pointer;
+  justify-content: space-between;
+  top: 10%;
+  left: 3%;
+  color: white;
+  font-size: 30px;
+}
+.action .action-right i {
+  position: absolute;
+  cursor: pointer;
+  justify-content: space-between;
+  top: 10%;
+  right: 3%;
+  color: white;
+  font-size: 30px;
+}
