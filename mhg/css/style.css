@@ -1,0 +1,22 @@
+#respon{
+    background-color: rgb(24, 24, 94);
+}
+.list-group{
+    display: flex;
+}
+.col-lg-10{
+    background-color: white;
+}
+.header h1{
+    color: white;
+}
+.icons{
+    display: inline-block;
+    
+}
+.icons i{
+    margin-right: 8px;
+}
+.word {
+    display: inline-block;
+}
